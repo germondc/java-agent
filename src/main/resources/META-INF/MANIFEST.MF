@@ -1,0 +1,2 @@
+Premain-Class: test.clyde.LoggerAgent
+Can-Retransform-Classes: true
