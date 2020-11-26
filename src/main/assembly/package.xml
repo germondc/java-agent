@@ -18,6 +18,8 @@
 			<includes>
 				<include>test.clyde:*</include>
 				<include>org.javassist:javassist</include>
+				<include>org.ow2.asm:asm</include>
+				<include>net.bytebuddy:byte-buddy</include>
 			</includes>			
 		</dependencySet>
 		<dependencySet>

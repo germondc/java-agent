@@ -1,2 +1,4 @@
-Premain-Class: test.clyde.LoggerAgent
-Can-Retransform-Classes: true
+Premain-Class: test.clyde.ByteBuddyAgent3
+Can-Redefine-Classes: false
+Can-Retransform-Classes: false
+Can-Set-Native-Method-Prefix: false

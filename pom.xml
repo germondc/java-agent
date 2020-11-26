@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>test.clyde</groupId>
 	<artifactId>java-agent</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 
 	<properties>
 		<maven-compiler-plugin-version>3.8.0</maven-compiler-plugin-version>
@@ -70,6 +70,19 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-ext</artifactId>
 			<version>1.7.26</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>7.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.bytebuddy</groupId>
+			<artifactId>byte-buddy</artifactId>
+			<version>1.9.12</version>
+<!-- <version>1.7.9</version> -->
 		</dependency>
 
 	</dependencies>

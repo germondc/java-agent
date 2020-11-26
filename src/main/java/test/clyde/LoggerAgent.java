@@ -19,9 +19,7 @@ public class LoggerAgent implements ClassFileTransformer {
 	static final String[] DEFAULT_EXCLUDES = new String[] { "com/sun/", "sun/", "java/", "javax/", "org/slf4j" };
 
 	/** only this classes should instrument or leave empty to instrument all classes that not excluded */
-	static final String[] INCLUDES = new String[] {
-			// "org/bouncycastle/crypto/encodings/", "org/bouncycastle/jce/provider/JCERSACipher"
-	};
+	static final String[] INCLUDES = new String[] { "alchemy/" };
 
 	/** the jul logger definition */
 	static final String def = "private static java.util.logging.Logger _log;";
